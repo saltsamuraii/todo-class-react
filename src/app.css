@@ -1,3 +1,55 @@
-.container {
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background: #72f3df;
+}
 
+h1 {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    display: block;
+}
+
+.input {
+    margin: 0 10px;
+    padding: 5px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    background: transparent;
+    font-size: 20px;
+    outline: none;
+}
+
+.todo {
+    margin: 10px 5px;
+    font-size: 24px;
+}
+
+.btn {
+    border: 3px solid #000;
+    border-radius: 20px;
+    margin: 0 10px;
+    background-color: #ff4f4f;
+    cursor: pointer;
+}
+
+.btn-big {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #fff;
 }
